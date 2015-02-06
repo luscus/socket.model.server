@@ -1,0 +1,39 @@
+{
+  "name": "socket.model.server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./lib/socket.model.server",
+  "homepage": "https://github.com/luscus/socket.model.server",
+  "author": "https://github.com/luscus/socket.model.server/graphs/contributors",
+  "bugs": "https://github.com/luscus/socket.model.server/issues",
+  "description": "A socket template providing Server Model behaviours for Application Framework Socket Objects.",
+  "keywords": [
+    "network",
+    "net",
+    "socket",
+    "model",
+    "server"
+  ],
+  "dependencies": {
+    "socket.lib.tools": "0.0.2",
+    "assert-plus": "0.1.5",
+    "node.extend": "1.1.3",
+    "application.mixin.automaton": "0.0.2"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-license-report": "0.0.8",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-test": "0.10.2",
+    "load-grunt-tasks": "0.6.0",
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luscus/socket.model.server.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
