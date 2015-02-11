@@ -1,6 +1,6 @@
 {
   "name": "socket.model.server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "./lib/socket.model.server",
   "homepage": "https://github.com/luscus/socket.model.server",
