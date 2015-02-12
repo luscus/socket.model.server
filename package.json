@@ -1,6 +1,6 @@
 {
   "name": "socket.model.server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "main": "./lib/socket.model.server",
   "homepage": "https://github.com/luscus/socket.model.server",
@@ -15,7 +15,7 @@
     "server"
   ],
   "dependencies": {
-    "socket.lib.tools": "0.0.2",
+    "socket.lib.tools": "0.0.3",
     "assert-plus": "0.1.5",
     "application.mixin.automaton": "0.0.2",
     "prototype-less": "0.1.1"
