@@ -15,10 +15,11 @@
     "server"
   ],
   "dependencies": {
-    "socket.lib.tools": "0.0.3",
-    "assert-plus": "0.1.5",
     "application.mixin.automaton": "0.0.2",
-    "prototype-less": "0.1.1"
+    "assert-plus": "0.1.5",
+    "prototype-less": "0.1.1",
+    "socket.lib.tools": "0.0.3",
+    "socket.packet.base": "0.0.3"
   },
   "devDependencies": {
     "grunt": "0.4.5",
