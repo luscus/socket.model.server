@@ -1,24 +1,7 @@
 {
   "name": "socket.model.server",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "dependencies": {
-    "application.mixin.automaton": {
-      "version": "0.0.2",
-      "from": "https://registry.npmjs.org/application.mixin.automaton/-/application.mixin.automaton-0.0.2.tgz",
-      "resolved": "https://registry.npmjs.org/application.mixin.automaton/-/application.mixin.automaton-0.0.2.tgz",
-      "dependencies": {
-        "function.signature.extender": {
-          "version": "0.0.2",
-          "from": "https://registry.npmjs.org/function.signature.extender/-/function.signature.extender-0.0.2.tgz",
-          "resolved": "https://registry.npmjs.org/function.signature.extender/-/function.signature.extender-0.0.2.tgz"
-        },
-        "package.root": {
-          "version": "0.2.0",
-          "from": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz",
-          "resolved": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz"
-        }
-      }
-    },
     "assert-plus": {
       "version": "0.1.5",
       "from": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz",
@@ -27,26 +10,35 @@
     "prototype-less": {
       "version": "0.1.1",
       "from": "prototype-less@0.1.1",
+      "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.1.tgz",
       "dependencies": {
         "node.extend": {
           "version": "1.1.2",
           "from": "node.extend@1.1.2",
+          "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
           "dependencies": {
             "is": {
               "version": "2.0.2",
-              "from": "is@~2.0.0"
+              "from": "is@~2.0.0",
+              "resolved": "https://registry.npmjs.org/is/-/is-2.0.2.tgz"
             }
           }
         }
       }
     },
     "socket.lib.tools": {
-      "version": "0.0.3",
-      "from": "socket.lib.tools@0.0.3",
+      "version": "0.0.5",
+      "from": "socket.lib.tools@0.0.5",
+      "resolved": "https://registry.npmjs.org/socket.lib.tools/-/socket.lib.tools-0.0.5.tgz",
       "dependencies": {
+        "assert-plus": {
+          "version": "0.1.5",
+          "from": "assert-plus@0.1.5",
+          "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz"
+        },
         "node.extend": {
           "version": "1.1.3",
-          "from": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.3.tgz",
+          "from": "node.extend@1.1.3",
           "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.3.tgz",
           "dependencies": {
             "is": {
@@ -64,39 +56,45 @@
       }
     },
     "socket.packet.base": {
-      "version": "0.0.3",
-      "from": "socket.packet.base@0.0.3",
+      "version": "0.0.4",
+      "from": "socket.packet.base@0.0.4",
+      "resolved": "https://registry.npmjs.org/socket.packet.base/-/socket.packet.base-0.0.4.tgz",
       "dependencies": {
+        "assert-plus": {
+          "version": "0.1.5",
+          "from": "assert-plus@0.1.5",
+          "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz"
+        },
         "node.extend": {
           "version": "1.1.3",
-          "from": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.3.tgz",
+          "from": "node.extend@1.1.3",
           "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.3.tgz",
           "dependencies": {
             "is": {
               "version": "2.1.0",
-              "from": "https://registry.npmjs.org/is/-/is-2.1.0.tgz",
+              "from": "is@2.1.0",
               "resolved": "https://registry.npmjs.org/is/-/is-2.1.0.tgz"
             }
           }
         },
         "package.loader": {
-          "version": "0.2.2",
-          "from": "https://registry.npmjs.org/package.loader/-/package.loader-0.2.2.tgz",
-          "resolved": "https://registry.npmjs.org/package.loader/-/package.loader-0.2.2.tgz"
+          "version": "0.2.3",
+          "from": "package.loader@0.2.3",
+          "resolved": "https://registry.npmjs.org/package.loader/-/package.loader-0.2.3.tgz"
         },
         "prototype-less": {
           "version": "0.1.2",
-          "from": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.2.tgz",
+          "from": "prototype-less@0.1.2",
           "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.2.tgz",
           "dependencies": {
             "node.extend": {
               "version": "1.1.2",
-              "from": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
+              "from": "node.extend@1.1.2",
               "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
               "dependencies": {
                 "is": {
                   "version": "2.0.2",
-                  "from": "https://registry.npmjs.org/is/-/is-2.0.2.tgz",
+                  "from": "is@2.0.2",
                   "resolved": "https://registry.npmjs.org/is/-/is-2.0.2.tgz"
                 }
               }
@@ -110,7 +108,7 @@
         },
         "package.root": {
           "version": "0.2.0",
-          "from": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz",
+          "from": "package.root@0.2.0",
           "resolved": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz"
         }
       }
